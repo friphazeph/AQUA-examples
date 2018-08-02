@@ -23,7 +23,7 @@ var main(void) {
 	new_layer(&subtitle);
 	
 	layer_set_text(&subtitle, small, SUBTITLE);
-	print("Subitle width = %lld, height = %lld\n", get_font_width(small, SUBTITLE), get_font_height(small, SUBTITLE));
+	print("Subtitle width = %lld, height = %lld\n", get_font_width(small, SUBTITLE), get_font_height(small, SUBTITLE));
 	
 	layer_set_text(&subtitle, small, SUBTITLE);
 	layer_init(&subtitle);
