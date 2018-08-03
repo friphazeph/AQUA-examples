@@ -14,7 +14,7 @@ var main(void) {
 	new_layer(&title);
 	
 	layer_set_text(&title, big, TITLE);
-	print("Title    width = %lld, height = %lld\n", get_font_width(big, TITLE), get_font_height(big, TITLE));
+	print("Title    width = %lld,\theight = %lld\n", get_font_width(big, TITLE), get_font_height(big, TITLE));
 	
 	layer_set_text(&title, big, TITLE);
 	layer_init(&title);
@@ -23,7 +23,7 @@ var main(void) {
 	new_layer(&subtitle);
 	
 	layer_set_text(&subtitle, small, SUBTITLE);
-	print("Subtitle width = %lld, height = %lld\n", get_font_width(small, SUBTITLE), get_font_height(small, SUBTITLE));
+	print("Subtitle width = %lld,\theight = %lld\n", get_font_width(small, SUBTITLE), get_font_height(small, SUBTITLE));
 	
 	layer_set_text(&subtitle, small, SUBTITLE);
 	layer_init(&subtitle);
