@@ -7,8 +7,8 @@
 #define SUBTITLE "This program shows off text in AQUA (ħ UTF8 support ħ)"
 
 var main(void) {
-	font_t big = new_font(PATH"fonts/main.ttf", (720 * 44) / video_width());
-	font_t small = new_font(PATH"fonts/main.ttf", (720 * 20) / video_width());
+	font_t big = new_font(PATH"fonts/main.ttf", video_width() / 20);
+	font_t small = new_font(PATH"fonts/main.ttf", video_width() / 20);
 	
 	layer_t title;
 	new_layer(&title);
