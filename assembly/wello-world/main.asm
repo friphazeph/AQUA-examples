@@ -24,5 +24,5 @@ section .text
 section .data
 	string: ; Hello world!
 		db 48H 65H 6CH 6CH 6FH 20H 77H 6FH
-        db 72H 6CH 64H 21H 0AH 00H 00H 00H
-        db 00H 00H 00H 00H 00H 00H
+		db 72H 6CH 64H 21H 0AH 00H 00H 00H
+		db 00H 00H 00H 00H 00H 00H
