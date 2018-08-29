@@ -12,8 +12,8 @@ section .text
 		jmp condition
 		
 		increment:
-			mov rdi format
-			mov rsi [rbp-8] ; rdi and rsi are the first and second argument registers respectively
+			mov rdi format ; rdi and rsi are the first and second argument registers respectively
+			mov rsi [rbp-8]
 			
 			call print
 			inc [rbp-8]
