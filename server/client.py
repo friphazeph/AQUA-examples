@@ -1,7 +1,7 @@
 
 import socket
 
-HOST = "192.168.1.37"
+HOST = raw_input("What is the server's IP address? ")
 PORT = 0xA55
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.connect((HOST, PORT))
