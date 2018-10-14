@@ -40,7 +40,7 @@ var main(void) {
 			break;
 			
 		} else if (events.pointer_click_type) {
-			layer_canvas_set_pixel(&canvas, events.pointer_x / SCALE, events.pointer_y / SCALE, 0xFF777777);
+			layer_canvas_set_pixel(&canvas, events.pointer_x / SCALE, events.pointer_y / SCALE, 0xFFFF777777777777);
 			layer_canvas_flip(&canvas);
 			
 		}
