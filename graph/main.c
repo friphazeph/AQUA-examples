@@ -32,8 +32,8 @@ var main(void) {
 		
 		colour += 0xFFF / video_fps();
 		
-		graph_circle      (&graph,    colour, width >> 2,   events.pointer_x, events.pointer_y);
-		graph_line_spacing(&graph, 1, 0xFFFF00000000FFFF, old_x, old_y, events.pointer_x, events.pointer_y);
+		graph_circle_spacing(&graph, 4, colour, width >> 2,               events.pointer_x, events.pointer_y);
+		graph_line_spacing  (&graph, 2, 0xFFFF00000000FFFF, old_x, old_y, events.pointer_x, events.pointer_y);
 		
 		old_x = events.pointer_x;
 		old_y = events.pointer_y;
